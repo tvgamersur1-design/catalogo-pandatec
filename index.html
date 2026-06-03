@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Tecnología y Accesorios Premium en Perú | Panda Tec</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Panda Tec es una tienda especializada en accesorios tecnológicos para celulares, laptops y computadoras. Ofrecemos cargadores rápidos, audífonos inalámbricos, protectores de pantalla y accesorios con garantía para todo el Perú.">
+    <meta name="keywords" content="accesorios tecnológicos, cargadores, audífonos, protectores pantalla, accesorios celular, accesorios laptop, Perú">
+    <meta name="theme-color" content="#2563EB">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Tienda de Tecnología y Accesorios Premium | Panda Tec">
+    <meta property="og:description" content="Encuentra cargadores, audífonos, protectores de pantalla y accesorios con garantía y envío rápido.">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css?v">
+</head>
+<body>
+    <!-- ==================== HEADER ==================== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="img/logo-new.svg" alt="Panda Tec Logo">
+                <span>Panda Tec</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link active">Inicio</a></li>
+                    <li><a href="#catalog" class="nav__link">Catálogo</a></li>
+                    <li><a href="#categories" class="nav__link">Categorías</a></li>
+                    <li><a href="#ofertas" class="nav__link">Ofertas</a></li>
+                    <li><a href="#nosotros" class="nav__link">Nosotros</a></li>
+                    <li><a href="#contact" class="nav__link">Contacto</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+
+            <div class="nav__actions">
+                <i class="fas fa-search nav__icon" id="search-toggle"></i>
+                <i class="fas fa-user nav__icon"></i>
+                <div class="nav__icon" id="cart-toggle" style="position: relative;">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="nav__cart-badge" id="cart-count">0</span>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- ==================== HERO SECTION ==================== -->
+        <section class="hero" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <span class="hero__badge">
+                        <i class="fas fa-bolt"></i>
+                        TECNOLOGÍA PREMIUM
+                    </span>
+                    <h1 class="hero__title">Tecnología que impulsa tu día</h1>
+                    <p class="hero__description">
+                        Accesorios premium para smartphones, computadoras y oficina. 
+                        Garantía, soporte y envíos a todo el Perú.
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="#catalog" class="button button--large">
+                            <i class="fas fa-grid-2"></i>
+                            Ver catálogo
+                        </a>
+                        <a href="https://wa.me/51902515226" target="_blank" class="button button--outline button--large">
+                            <i class="fab fa-whatsapp"></i>
+                            Contactar por WhatsApp
+                        </a>
+                    </div>
+                    <div class="hero__stats">
+                        <div class="hero__stat">
+                            <span class="hero__stat-number">+5,000</span>
+                            <span class="hero__stat-label">Productos</span>
+                        </div>
+                        <div class="hero__stat">
+                            <span class="hero__stat-number">+2,000</span>
+                            <span class="hero__stat-label">Clientes fieles</span>
+                        </div>
+                        <div class="hero__stat">
+                            <span class="hero__stat-number">+50</span>
+                            <span class="hero__stat-label">Marcas</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="img/hero-device.png" alt="Dispositivos tecnológicos premium">
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== TRUST SECTION ==================== -->
+        <section class="trust">
+            <div class="container">
+                <div class="trust__grid">
+                    <div class="trust__card">
+                        <i class="fas fa-shipping-fast trust__icon"></i>
+                        <div class="trust__content">
+                            <h4>Envíos rápidos</h4>
+                            <p>A todo el Perú</p>
+                        </div>
+                    </div>
+                    <div class="trust__card">
+                        <i class="fas fa-shield-check trust__icon"></i>
+                        <div class="trust__content">
+                            <h4>Garantía real</h4>
+                            <p>En todos nuestros productos</p>
+                        </div>
+                    </div>
+                    <div class="trust__card">
+                        <i class="fas fa-badge-check trust__icon"></i>
+                        <div class="trust__content">
+                            <h4>Productos verificados</h4>
+                            <p>Calidad asegurada</p>
+                        </div>
+                    </div>
+                    <div class="trust__card">
+                        <i class="fas fa-headset trust__icon"></i>
+                        <div class="trust__content">
+                            <h4>Atención personalizada</h4>
+                            <p>Lun WhatsApp 24/7</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== BRANDS ==================== -->
+        <section class="brands">
+            <div class="container">
+                <h3 class="brands__title">Marcas en las que confiamos</h3>
+                <div class="brands__grid">
+                    <div class="brands__logo">
+                        <i class="fab fa-apple" style="font-size: 3rem;"></i>
+                    </div>
+                    <div class="brands__logo">
+                        <span style="font-size: 1.5rem; font-weight: 700;">SAMSUNG</span>
+                    </div>
+                    <div class="brands__logo">
+                        <span style="font-size: 1.5rem; font-weight: 700;">Xiaomi</span>
+                    </div>
+                    <div class="brands__logo">
+                        <span style="font-size: 1.5rem; font-weight: 700;">HP</span>
+                    </div>
+                    <div class="brands__logo">
+                        <span style="font-size: 1.5rem; font-weight: 700;">Lenovo</span>
+                    </div>
+                    <div class="brands__logo">
+                        <span style="font-size: 1.5rem; font-weight: 700;">JBL</span>
+                    </div>
+                    <div class="brands__logo">
+                        <span style="font-size: 1.5rem; font-weight: 700;">Logitech</span>
+                    </div>
+                    <div class="brands__logo">
+                        <span style="font-size: 1.5rem; font-weight: 700;">AUKEY</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== CATEGORIES ==================== -->
+        <section class="categories" id="categories">
+            <div class="container">
+                <h2 class="section__title">Categorías Destacadas</h2>
+                <p class="section__subtitle">Explora nuestra amplia selección de productos tecnológicos</p>
+                
+                <div class="categories__grid grid">
+                    <div class="category__card">
+                        <div class="category__icon">
+                            <i class="fas fa-mobile-alt" style="color: #2563EB;"></i>
+                        </div>
+                        <h3 class="category__title">Accesorios para Celulares</h3>
+                        <p class="category__count">Ver productos</p>
+                        <a href="#catalog" class="category__link">
+                            Explorar
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="category__card">
+                        <div class="category__icon">
+                            <i class="fas fa-laptop" style="color: #2563EB;"></i>
+                        </div>
+                        <h3 class="category__title">Accesorios para Computadoras</h3>
+                        <p class="category__count">Ver productos</p>
+                        <a href="#catalog" class="category__link">
+                            Explorar
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="category__card">
+                        <div class="category__icon">
+                            <i class="fas fa-headphones" style="color: #2563EB;"></i>
+                        </div>
+                        <h3 class="category__title">Audio y Sonido</h3>
+                        <p class="category__count">Ver productos</p>
+                        <a href="#catalog" class="category__link">
+                            Explorar
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="category__card">
+                        <div class="category__icon">
+                            <i class="fas fa-charging-station" style="color: #2563EB;"></i>
+                        </div>
+                        <h3 class="category__title">Cables y Cargadores</h3>
+                        <p class="category__count">Ver productos</p>
+                        <a href="#catalog" class="category__link">
+                            Explorar
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="category__card">
+                        <div class="category__icon">
+                            <i class="fas fa-shield-alt" style="color: #2563EB;"></i>
+                        </div>
+                        <h3 class="category__title">Protectores de Pantalla</h3>
+                        <p class="category__count">Ver productos</p>
+                        <a href="#catalog" class="category__link">
+                            Explorar
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PRODUCTS SECTION ==================== -->
+        <section class="products" id="catalog">
+            <div class="container">
+                <div class="products__header">
+                    <div>
+                        <h2 class="section__title" style="text-align: left; margin-bottom: 0.5rem;">Productos Más Vendidos</h2>
+                        <p class="section__subtitle" style="text-align: left; margin-bottom: 0;">Descubre lo que nuestros clientes aman</p>
+                    </div>
+                    <a href="#catalog" class="button">Ver todo el catálogo</a>
+                </div>
+
+                <div class="products__filters" id="category-filters">
+                    <button class="filter__btn active" data-filter="all">Todos</button>
+                    <!-- Categorías se cargarán dinámicamente -->
+                </div>
+
+                <div class="products__grid grid" id="product-grid">
+                    <!-- Productos se cargarán dinámicamente -->
+                    <div style="grid-column: 1/-1; text-align: center; padding: 3rem;">
+                        <i class="fas fa-circle-notch fa-spin" style="font-size: 2rem; color: var(--primary);"></i>
+                        <p style="margin-top: 1rem; color: var(--text-color);">Cargando productos...</p>
+                    </div>
+                </div>
+
+                <!-- Pagination -->
+                <div id="pagination-container" style="display: flex; justify-content: center; gap: 0.5rem; margin-top: 2rem;"></div>
+            </div>
+        </section>
+
+        <!-- ==================== BENEFITS ==================== -->
+        <section class="hero" style="padding: 4rem 0;">
+            <div class="container">
+                <h2 class="section__title" style="color: white; margin-bottom: 3rem;">¿Por qué comprar en Panda Tec?</h2>
+                <div class="trust__grid">
+                    <div class="trust__card" style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 1rem; border: 1px solid rgba(255,255,255,0.2);">
+                        <i class="fas fa-certificate trust__icon" style="color: #60A5FA;"></i>
+                        <div class="trust__content" style="color: white;">
+                            <h4 style="color: white;">Calidad garantizada</h4>
+                            <p style="color: #CBD5E1;">Productos 100% originales</p>
+                        </div>
+                    </div>
+                    <div class="trust__card" style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 1rem; border: 1px solid rgba(255,255,255,0.2);">
+                        <i class="fas fa-lock trust__icon" style="color: #60A5FA;"></i>
+                        <div class="trust__content" style="color: white;">
+                            <h4 style="color: white;">Compra segura</h4>
+                            <p style="color: #CBD5E1;">Protegemos tus datos</p>
+                        </div>
+                    </div>
+                    <div class="trust__card" style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 1rem; border: 1px solid rgba(255,255,255,0.2);">
+                        <i class="fas fa-headset trust__icon" style="color: #60A5FA;"></i>
+                        <div class="trust__content" style="color: white;">
+                            <h4 style="color: white;">Soporte 24/7</h4>
+                            <p style="color: #CBD5E1;">Siempre listos para ayudarte</p>
+                        </div>
+                    </div>
+                    <div class="trust__card" style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 1rem; border: 1px solid rgba(255,255,255,0.2);">
+                        <i class="fas fa-star trust__icon" style="color: #60A5FA;"></i>
+                        <div class="trust__content" style="color: white;">
+                            <h4 style="color: white;">Productos originales</h4>
+                            <p style="color: #CBD5E1;">Garantía de autenticidad</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== CONTACT SECTION ==================== -->
+        <section class="section" id="contact" style="background: white;">
+            <div class="container">
+                <h2 class="section__title">¿Necesitas ayuda?</h2>
+                <p class="section__subtitle">Contáctanos directamente por WhatsApp para consultas sobre stock, precios mayoristas o envíos.</p>
+                
+                <div style="max-width: 400px; margin: 0 auto; text-align: center; background: white; padding: 2rem; border-radius: 1rem; border: 1px solid var(--border-color); box-shadow: var(--shadow-lg);">
+                    <i class="fab fa-whatsapp" style="font-size: 4rem; color: #25D366; margin-bottom: 1rem;"></i>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">WhatsApp</h3>
+                    <p style="color: var(--text-color); margin-bottom: 1.5rem;">+51 902 515 226</p>
+                    <a href="https://wa.me/51902515226" target="_blank" class="button button--secondary" style="width: 100%;">
+                        <i class="fab fa-whatsapp"></i>
+                        Chatear ahora
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="hero" style="padding: 3rem 0 1.5rem;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 2rem;">
+                <div>
+                    <h3 style="color: white; margin-bottom: 1rem; font-size: 1.5rem;">Panda Tec</h3>
+                    <p style="color: #CBD5E1; margin-bottom: 1rem;">Tu tienda de Tecnología y accesorios en Perú.</p>
+                </div>
+                
+                <div>
+                    <h4 style="color: white; margin-bottom: 1rem; font-weight: 600;">Enlaces</h4>
+                    <ul style="display: flex; flex-direction: column; gap: 0.5rem;">
+                        <li><a href="#home" style="color: #CBD5E1; transition: color 0.3s;">Inicio</a></li>
+                        <li><a href="#catalog" style="color: #CBD5E1; transition: color 0.3s;">Catálogo</a></li>
+                        <li><a href="#categories" style="color: #CBD5E1; transition: color 0.3s;">Categorías</a></li>
+                        <li><a href="#contact" style="color: #CBD5E1; transition: color 0.3s;">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 style="color: white; margin-bottom: 1rem; font-weight: 600;">Información</h4>
+                    <ul style="display: flex; flex-direction: column; gap: 0.5rem;">
+                        <li style="color: #CBD5E1;">WhatsApp: +51 902 515 226</li>
+                        <li style="color: #CBD5E1;">Lima, Perú</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 style="color: white; margin-bottom: 1rem; font-weight: 600;">Síguenos</h4>
+                    <div style="display: flex; gap: 1rem;">
+                        <a href="#" style="width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; transition: all 0.3s;">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" style="width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; transition: all 0.3s;">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" style="width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; transition: all 0.3s;">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="#" style="width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; transition: all 0.3s;">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1);">
+                <p style="color: #94A3B8; font-size: 0.875rem;">&copy; 2024 Panda Tec. Todos los derechos reservados.</p>
+                <p style="color: #64748B; font-size: 0.75rem; margin-top: 1rem; line-height: 1.6;">
+                    Panda Tec es una tienda especializada en accesorios tecnológicos para celulares, laptops y computadoras. Ofrecemos cargadores rápidos, audífonos inalámbricos, protectores de pantalla y accesorios con garantía para todo el Perú.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/51902515226" target="_blank" style="position: fixed; bottom: 2rem; right: 2rem; width: 60px; height: 60px; background: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4); z-index: 1000; transition: transform 0.3s;">
+        <i class="fab fa-whatsapp" style="font-size: 2rem; color: white;"></i>
+    </a>
+
+    <!-- Scroll to top -->
+    <button id="scroll-up" style="position: fixed; bottom: 2rem; left: 2rem; width: 50px; height: 50px; background: var(--primary); color: white; border-radius: 50%; display: none; align-items: center; justify-content: center; box-shadow: var(--shadow-lg); z-index: 1000; transition: all 0.3s;">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Modal Product -->
+    <div class="modal" id="product-modal">
+        <div class="modal__content">
+            <button class="modal__close" id="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal__body">
+                <div class="modal__image">
+                    <img src="" alt="" id="modal-img">
+                </div>
+                <div class="modal__details">
+                    <span class="modal__category" id="modal-category"></span>
+                    <h2 class="modal__title" id="modal-title"></h2>
+                    <div class="modal__rating">
+                        <span class="modal__stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </span>
+                        <span class="modal__reviews">(4.5) 128 reseñas</span>
+                    </div>
+                    <div class="modal__price" id="modal-price"></div>
+                    <p class="modal__description" id="modal-description"></p>
+                    <div class="modal__actions">
+                        <button class="button" id="modal-add-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Añadir al carrito
+                        </button>
+                        <a href="" target="_blank" class="button button--secondary" id="modal-whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Drawer -->
+    <div class="cart" id="cart-drawer">
+        <div class="cart__content">
+            <div class="cart__header">
+                <h3 class="cart__title">
+                    <i class="fas fa-shopping-cart"></i>
+                    Tu Carrito
+                </h3>
+                <button class="cart__close" id="cart-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="cart__body" id="cart-body">
+                <!-- Cart items will be injected here -->
+            </div>
+            <div class="cart__footer">
+                <div class="cart__total">
+                    <span class="cart__total-label">Total:</span>
+                    <span class="cart__total-price" id="cart-total">S/ 0.00</span>
+                </div>
+                <button class="button cart__checkout" id="checkout-btn">
+                    <i class="fab fa-whatsapp"></i>
+                    Pedir por WhatsApp
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/app.js"></script>
+</body>
+</html>
