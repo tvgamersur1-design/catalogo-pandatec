@@ -1,7 +1,7 @@
 /* ==================== PANDA TEC - PREMIUM APP ==================== */
 
 /* ==================== CONFIGURATION ==================== */
-const API_BASE_URL = 'https://panda-tec.onrender.com/api';
+const API_BASE_URL = 'https://pandatec.onrender.com/api';
 const WHATSAPP_NUMBER = '51902515226';
 
 /* ==================== STATE ==================== */
