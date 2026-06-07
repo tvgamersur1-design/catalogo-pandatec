@@ -43,7 +43,7 @@ git push -u origin main
 #### 4. Espera el despliegue
 - Render automáticamente desplegará tu sitio
 - El proceso toma 1-2 minutos
-- Recibirás una URL como: `https://panda-tec.onrender.com`
+- Recibirás una URL como: `https://pandatec.onrender.com`
 
 #### 5. Configurar dominio personalizado (Opcional)
 Si tienes un dominio propio:
